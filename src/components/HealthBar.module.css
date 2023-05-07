@@ -1,0 +1,14 @@
+.num {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: 2px auto;
+
+  text-align: center;
+  font-size: 24px;
+  line-height: 108.15%;
+  font-weight: 700;
+  text-shadow: -1px -1px 0 #37362e, 0 -1px 0 #37362e, 1px -1px 0 #37362e,
+    1px 0 0 #37362e, 1px 1px 0 #37362e, 0 1px 0 #37362e, -1px 1px 0 #37362e,
+    -1px 0 0 #37362e;
+}

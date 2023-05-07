@@ -1,0 +1,7 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+  background: linear-gradient(179.91deg, #e9e9bf 0.1%, #cbac77 99.94%);
+}

@@ -1,0 +1,39 @@
+.btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 69px;
+  font-family: "Roboto Condensed", sans-serif;
+
+  background: #e9e2bf;
+  border: 4px solid #ee7000;
+
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 108.15%;
+  cursor: pointer;
+  text-transform: uppercase;
+
+  color: #ee7000;
+}
+
+.btn.active {
+  background: #7ab300;
+  border: 4px solid #7ab300;
+  color: #e9e2bf;
+}
+
+.btn.inactive {
+  background: #e9e2bf;
+  border: 4px solid #8c8c7e;
+  color: #8c8c7e;
+}
+
+.btn:hover:not(:disabled),
+.btn:focus:not(:disabled) {
+  background: #7ab300;
+  border: 4px solid #7ab300;
+  color: #e9e2bf;
+}
